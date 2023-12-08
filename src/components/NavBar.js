@@ -1,13 +1,17 @@
 import React from "react";
 
 function NavBar() {
-  // update the JSX being returned!
   return (
-    <nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-  </nav>
+    <nav style={{ backgroundColor: "#333", padding: "10px", textAlign: "center" }}>
+      <a href="#home" style={{ color: "#fff", margin: "0 10px", textDecoration: "none" }}>
+        Home
+      </a>
+      <a href="#about" style={{ color: "#fff", margin: "0 10px", textDecoration: "none" }}>
+        About
+      </a>
+    </nav>
   );
 }
 
 export default NavBar;
+
