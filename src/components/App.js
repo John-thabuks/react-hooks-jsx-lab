@@ -5,11 +5,19 @@ import About from "./About";
 
 function App() {
   return (
-    <div>
+    <>
+      {/* Navigation Bar */}
       <NavBar />
-      <Home />
-      <About />
-    </div>
+
+      {/* Main Content */}
+      <div>
+        {/* Home Section */}
+        <Home />
+
+        {/* About Me Section */}
+        <About />
+      </div>
+    </>
   );
 }
 
