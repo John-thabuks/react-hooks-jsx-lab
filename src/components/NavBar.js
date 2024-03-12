@@ -1,13 +1,18 @@
 import React from "react";
+import "./NavBar.css"; // Import CSS file for component styles
 
 function NavBar() {
-  // update the JSX being returned!
   return (
-    <nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-  </nav>
+    <nav className="navbar">
+      <a href="#home" className="nav-link">
+        Home
+      </a>
+      <a href="#about" className="nav-link">
+        About
+      </a>
+    </nav>
   );
 }
 
 export default NavBar;
+
